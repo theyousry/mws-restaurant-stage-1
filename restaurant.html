@@ -20,10 +20,10 @@
   <header>
     <!-- Beginning nav -->
     <nav>
-      <h1><a href="/" aria-label="Restaurant Reviews link">Restaurant Reviews</a></h1>
+      <h1><a href="/" aria-label="Restaurant Reviews">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" role="navigation">
+    <ul id="breadcrumb" aria-label="Breadcrumb" role="navigation">
       <li><a href="/" aria-label="Home">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -35,6 +35,7 @@
   <main id="maincontent" role="main">
     <!-- Beginning map -->
     <section id="map-container" role="application">
+      <a href="#restaurant-container" class="skip-link-2">Skip Google map controls</a>
       <div id="map"></div>
     </section>
     <!-- End map -->
@@ -42,7 +43,7 @@
     <section id="info-container">
     <!-- Beginning restaurant -->
     <section id="restaurant-container">
-      <h1 id="restaurant-name"></h1>
+      <h2 id="restaurant-name"></h2>
       <img id="restaurant-img">
       <p id="restaurant-cuisine"></p>
       <p id="restaurant-address"></p>
